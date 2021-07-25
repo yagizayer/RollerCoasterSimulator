@@ -13,9 +13,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Range(0.001f, 10f)] private float _movementOffset;
     public Transform Hips;
     private Transform _mainCam;
+    private SoundManager _soundManager;
 
     private void Start()
     {
+        if (_soundManager == null) _soundManager = FindObjectOfType<SoundManager>();
         if (_eventManager == null) _eventManager = FindObjectOfType<EventManager>();
         if (_animator == null) _animator = GetComponentInChildren<Animator>();
         if (_navMeshAgent == null) _navMeshAgent = GetComponent<NavMeshAgent>();
@@ -24,9 +26,18 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Vector3 moveDir = GetInputs().RelativeToCamera(_mainCam);
-        if (moveDir.magnitude >= 0) _animator.SetBool("Moving", true);
-        if (moveDir.magnitude <= 0) _animator.SetBool("Moving", false);
+        if (moveDir.magnitude >= 0)
+        {
+            _animator.SetBool("Moving", true);
+            _soundManager.PlaySound(SoundEffectsName.Walking);
+        }
+        if (moveDir.magnitude <= 0)
+        {
+            _soundManager.StopSound(SoundEffectsName.Walking);
+            _animator.SetBool("Moving", false);
+        }
         _navMeshAgent.SetDestination(transform.position + moveDir * _movementOffset);
+
 
         if (Input.GetKeyDown(KeyCode.Space))
         {

@@ -14,8 +14,11 @@ public class TriggerManager : MonoBehaviour
     [SerializeField] private CartSpeedEventsManager _cartSpeedEventsManager;
     [SerializeField] private EventManager _eventManager;
     [SerializeField] private TriggerAreasDict Triggers;
+    private SoundManager _soundManager;
     private void Start()
     {
+
+        if (_soundManager == null) _soundManager = FindObjectOfType<SoundManager>();
         _cartSpeedEventsManager = FindObjectOfType<CartSpeedEventsManager>();
         _eventManager = FindObjectOfType<EventManager>();
 

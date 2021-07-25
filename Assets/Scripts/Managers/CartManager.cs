@@ -14,9 +14,11 @@ public class CartManager : MonoBehaviour
     private Transform _hips;
 
     [SerializeField] private Transform TestRipcage;
+    private SoundManager _soundManager;
 
     private void Start()
     {
+        if (_soundManager == null) _soundManager = FindObjectOfType<SoundManager>();
         _player = GameObject.FindGameObjectWithTag("Player").transform;
         _hips = _player.GetComponent<PlayerMovement>().Hips;
         _triggerManager = FindObjectOfType<TriggerManager>();
@@ -32,6 +34,7 @@ public class CartManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         _cartControlScript.enabled = true;
+        _soundManager.PlaySound(SoundEffectsName.RollerCoaster);
         foreach (Transform child in transform)
         {
             child.Translate(new Vector3(.75f, .4f, 0), Space.World);
