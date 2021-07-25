@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    [SerializeField] private UnityEvent CartInteraction = new UnityEvent();
-    [SerializeField] private UnityEvent CartCrash = new UnityEvent();
+    [SerializeField] private UnityEvent CartInteractionEvent = new UnityEvent();
+    [SerializeField] private UnityEvent CartCrashEvent = new UnityEvent();
 
 
     public void InvokeCartInteractionEvent()
     {
-
+        CartInteractionEvent.Invoke();
     }
     public void InvokeCartCrashEvent()
     {
-
+        CartCrashEvent.Invoke();
     }
     public void TestFunc()
     {
