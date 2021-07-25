@@ -17,4 +17,8 @@ public class EventManager : MonoBehaviour
     {
 
     }
+    public void TestFunc()
+    {
+        Debug.Log("test");
+    }
 }

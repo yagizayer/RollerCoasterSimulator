@@ -14,29 +14,30 @@ public class CartSpeedEventsManager : MonoBehaviour
     [SerializeField] private UnityEvent SecondLoopStartedEvent = new UnityEvent();
     [SerializeField] private UnityEvent SecondLoopEndedEvent = new UnityEvent();
 
-    private void InvokeFirstRisingEvent()
+    public void InvokeFirstRisingEvent()
     {
         FirstRisingEvent.Invoke();
     }
-    private void InvokeSteepDropEvent()
+    public void InvokeSteepDropEvent()
     {
         SteepDropEvent.Invoke();
     }
-    private void InvokeFirstLoopStartedEvent()
+    public void InvokeFirstLoopStartedEvent()
     {
         FirstLoopStartedEvent.Invoke();
     }
-    private void InvokeFirstLoopEndedEvent()
+    public void InvokeFirstLoopEndedEvent()
     {
         FirstLoopEndedEvent.Invoke();
     }
-    private void InvokeSecondLoopStartedEvent()
+    public void InvokeSecondLoopStartedEvent()
     {
         SecondLoopStartedEvent.Invoke();
     }
-    private void InvokeSecondLoopEndedEvent()
+    public void InvokeSecondLoopEndedEvent()
     {
         SecondLoopEndedEvent.Invoke();
     }
 
+    
 }
