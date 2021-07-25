@@ -1,0 +1,385 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1110; Version 2009; 64bit' Language: 'tr' Physical Memory: 7613 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/yagiz/unity Projects/Spline Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55295
+Successfully changed project path to: C:/Users/yagiz/unity Projects/Spline Test
+C:/Users/yagiz/unity Projects/Spline Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yagiz/unity Projects/Spline Test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003023 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.333 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 3.135700 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.044700 ms MarkObjects: 2.741700 ms  DeleteObjects: 0.138700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts
+  artifactKey: Guid(c87d9c05857bb7a4b904a55c95611e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c87d9c05857bb7a4b904a55c95611e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7107649110b45888c51d2873511e4a24') in 0.015153 seconds 
+  Import took 0.019608 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 2.571100 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.050600 ms MarkObjects: 2.229500 ms  DeleteObjects: 0.076700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 239.220092 seconds.
+  path: Assets/Scenes/Levels
+  artifactKey: Guid(bbb7943cadb3bba4189d16168f273d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels using Guid(bbb7943cadb3bba4189d16168f273d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeee0dcf06720adb92770fa258bc3222') in 0.016141 seconds 
+  Import took 0.023173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001360 seconds.
+  path: Assets/Scenes/Levels
+  artifactKey: Guid(bbb7943cadb3bba4189d16168f273d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels using Guid(bbb7943cadb3bba4189d16168f273d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeee0dcf06720adb92770fa258bc3222') in 0.003261 seconds 
+  Import took 0.006244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.712440 seconds.
+  path: Assets/Scenes/Levels/Gameplay.unity
+  artifactKey: Guid(9cebc2c1724795643b752abf480f8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Gameplay.unity using Guid(9cebc2c1724795643b752abf480f8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8eecae2425a67873f8e3f0259de267') in 0.022453 seconds 
+  Import took 0.026975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.169866 seconds.
+  path: Assets/3rd-Party/BzKovSoft/RagdollTemplate/Models/Robot Kyle.prefab
+  artifactKey: Guid(3314232fe58ae954d95689bfd6de24a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/BzKovSoft/RagdollTemplate/Models/Robot Kyle.prefab using Guid(3314232fe58ae954d95689bfd6de24a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278af93bb253007783f3bd40c1b6876d') in 0.401184 seconds 
+  Import took 0.406992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.275665 seconds.
+  path: Assets/3rd-Party/BzKovSoft/RagdollTemplate/Models/Robot Kyle
+  artifactKey: Guid(52efdb8b073eebe478ba54d655d9b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/BzKovSoft/RagdollTemplate/Models/Robot Kyle using Guid(52efdb8b073eebe478ba54d655d9b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb1417c6c72493c7cba05430bf49cee') in 0.004796 seconds 
+  Import took 0.008390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 508.385062 seconds.
+  path: Assets/3rd-Party/MS
+  artifactKey: Guid(55d45f42e7e79aa4f9baefc4ef3897a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS using Guid(55d45f42e7e79aa4f9baefc4ef3897a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259abfeac69e05ff19e1640f6c7a49fd') in 0.013240 seconds 
+  Import took 0.017591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877150 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1
+  artifactKey: Guid(14de6f5bacad6bc47a8011445d2aa658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1 using Guid(14de6f5bacad6bc47a8011445d2aa658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da51fd21e841703e74083e2a5dd397aa') in 0.013045 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001681 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1
+  artifactKey: Guid(14de6f5bacad6bc47a8011445d2aa658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1 using Guid(14de6f5bacad6bc47a8011445d2aa658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da51fd21e841703e74083e2a5dd397aa') in 0.004946 seconds 
+  Import took 0.008354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.256338 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1/Scene
+  artifactKey: Guid(4e6647fee0573294892564aabd45cf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1/Scene using Guid(4e6647fee0573294892564aabd45cf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d01bee1820dd541b6b1d0fff0babc4') in 0.011999 seconds 
+  Import took 0.015616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002253 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1/Scene
+  artifactKey: Guid(4e6647fee0573294892564aabd45cf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1/Scene using Guid(4e6647fee0573294892564aabd45cf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d01bee1820dd541b6b1d0fff0babc4') in 0.004172 seconds 
+  Import took 0.007483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.782005 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1/Scene/Scene.unity
+  artifactKey: Guid(bbc202fe60bd51941a789e0e0e9edba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1/Scene/Scene.unity using Guid(bbc202fe60bd51941a789e0e0e9edba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d46fde6473de8058ae1cef4b4be239b') in 0.013903 seconds 
+  Import took 0.017828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1/Scene/Scene.unity
+  artifactKey: Guid(bbc202fe60bd51941a789e0e0e9edba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1/Scene/Scene.unity using Guid(bbc202fe60bd51941a789e0e0e9edba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d46fde6473de8058ae1cef4b4be239b') in 0.004646 seconds 
+  Import took 0.008624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.109562 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1/Scene/Custom.unity
+  artifactKey: Guid(5e4b43df1ee4adf42bd9e901ca7a82bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1/Scene/Custom.unity using Guid(5e4b43df1ee4adf42bd9e901ca7a82bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034cb0ea7c18acdb36cdae3e474f5de4') in 0.013748 seconds 
+  Import took 0.018053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.331271 seconds.
+  path: Assets/3rd-Party/MS/FlatCarKit1/Scene/BasicObject.unity
+  artifactKey: Guid(39512f93b2c0bd244a0e3a7de8427b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/MS/FlatCarKit1/Scene/BasicObject.unity using Guid(39512f93b2c0bd244a0e3a7de8427b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b35adca24eb077cbed3fbc1329d67ba') in 0.017069 seconds 
+  Import took 0.020105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 354.672495 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite
+  artifactKey: Guid(ed86502ebc926c64aa8594f0baace7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite using Guid(ed86502ebc926c64aa8594f0baace7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae54bc0299e55f20593420e05cf75967') in 0.014778 seconds 
+  Import took 0.019807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.278915 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models
+  artifactKey: Guid(784670f89210bdc41a8cdcf2fbe5a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models using Guid(784670f89210bdc41a8cdcf2fbe5a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1a023fe2f5a3657a4119f676c015cf') in 0.012129 seconds 
+  Import took 0.015847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.950002 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Boxes
+  artifactKey: Guid(b3589d6fb30fefb4a983ffb4dadcd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Boxes using Guid(b3589d6fb30fefb4a983ffb4dadcd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a434fc99079c07b530d1c9a1bc5f62') in 0.014081 seconds 
+  Import took 0.018318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016890 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Boxes
+  artifactKey: Guid(b3589d6fb30fefb4a983ffb4dadcd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Boxes using Guid(b3589d6fb30fefb4a983ffb4dadcd677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a434fc99079c07b530d1c9a1bc5f62') in 0.003899 seconds 
+  Import took 0.008261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.484069 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Scenes
+  artifactKey: Guid(f6bfba2a6d1280041acdeb81304cc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Scenes using Guid(f6bfba2a6d1280041acdeb81304cc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e36b503a6aff37a084bb46c05d17ff') in 0.014355 seconds 
+  Import took 0.018162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014914 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Scenes
+  artifactKey: Guid(f6bfba2a6d1280041acdeb81304cc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Scenes using Guid(f6bfba2a6d1280041acdeb81304cc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e36b503a6aff37a084bb46c05d17ff') in 0.004254 seconds 
+  Import took 0.007615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.827507 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Scenes/Environment.unity
+  artifactKey: Guid(eca1d745e74c8854faa7b7eb71473e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Scenes/Environment.unity using Guid(eca1d745e74c8854faa7b7eb71473e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48050bc2d7b65d7a64394edca072b1cb') in 0.012202 seconds 
+  Import took 0.015465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.704155 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab
+  artifactKey: Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab using Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00bded29339232bfe1e0a92f77ce41f') in 0.034654 seconds 
+  Import took 0.038055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.789713 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2.fbx
+  artifactKey: Guid(d2f8f2f4ee1af0d4aaa6bc9b169b9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2.fbx using Guid(d2f8f2f4ee1af0d4aaa6bc9b169b9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3158c773284257ed7ea4c8295eebf41a') in 0.096284 seconds 
+  Import took 0.099848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.696753 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Textures/Albedo.png
+  artifactKey: Guid(e03ef1dae3daf8e4f9a83b13e35cfa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Textures/Albedo.png using Guid(e03ef1dae3daf8e4f9a83b13e35cfa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdba067c70c014861d6e016dc75c3d0') in 0.048625 seconds 
+  Import took 0.052174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005035 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Textures/Albedo.png
+  artifactKey: Guid(e03ef1dae3daf8e4f9a83b13e35cfa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Textures/Albedo.png using Guid(e03ef1dae3daf8e4f9a83b13e35cfa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdba067c70c014861d6e016dc75c3d0') in 0.009597 seconds 
+  Import took 0.013098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.984885 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx
+  artifactKey: Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx using Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcb812cb65df5f4a4629cc851c2ef14') in 0.063307 seconds 
+  Import took 0.066754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 777.508623 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab
+  artifactKey: Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab using Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b213c6a244cff4ce9bb92b6583e6b2') in 0.028494 seconds 
+  Import took 0.032241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.363709 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab
+  artifactKey: Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab using Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d90d8436a4d9f261bc21bdc9a86720') in 0.026539 seconds 
+  Import took 0.030401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.707935 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab
+  artifactKey: Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab using Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd648219438a561ea82125e0fed2b84') in 0.023844 seconds 
+  Import took 0.027195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.409804 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab
+  artifactKey: Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Prefabs/Coffin_1_2.prefab using Guid(8a8a5368519bfff45b3810944d77ec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e567277f9b069e10175e132f25da218b') in 0.029023 seconds 
+  Import took 0.032638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 674.893174 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx
+  artifactKey: Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx using Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01d42037885a933b18a52e7e9ff2b7f') in 0.046356 seconds 
+  Import took 0.049821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003590 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx
+  artifactKey: Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx using Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01d42037885a933b18a52e7e9ff2b7f') in 0.036426 seconds 
+  Import took 0.040304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.095742 seconds.
+  path: Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx
+  artifactKey: Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd-Party/Low Poly Pack - Environment Lite/Models/Headstones/Coffin_1_2_open.fbx using Guid(55ddafa89ff29464fac970f16a7924b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c03d834da4d4bea8c4096dc7d426f0f') in 0.043400 seconds 
+  Import took 0.047306 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
