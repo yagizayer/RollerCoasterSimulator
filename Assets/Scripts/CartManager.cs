@@ -27,7 +27,7 @@ public class CartManager : MonoBehaviour
         _cartControlScript.enabled = true;
         foreach (Transform child in transform)
         {
-            child.Translate(new Vector3(-.5f, .4f, 0), Space.World);
+            child.Translate(new Vector3(.75f, .4f, 0), Space.World);
         }
 
     }
@@ -37,8 +37,36 @@ public class CartManager : MonoBehaviour
         if (other.CompareTag("TriggerArea")) _triggerManager.Triggering(other.GetComponent<ControlAreaChecker>().ColliderID);
     }
 
-    public void ReparentPlayer()
+    public void DeparentPlayer()
     {
-        _player.SetParent(transform);
+        _player.SetParent(null);
+    }
+
+    public void AdjustSpeed(float speed)
+    {
+        // Debug.Log(_cartControlScript.speed);
+        StopCoroutine("AdjustingSpeed");
+        StartCoroutine(AdjustingSpeed(_cartControlScript.speed + speed));
+    }
+
+    private IEnumerator AdjustingSpeed(float targetSpeed)
+    {
+        float currentSpeed = _cartControlScript.speed;
+        float lerpVal = 0;
+        while (lerpVal <= 1)
+        {
+            float newSpeed = Mathf.Lerp(currentSpeed, targetSpeed, lerpVal);
+            _cartControlScript.speed = newSpeed;
+            lerpVal += Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+    }
+
+    public void AddForceToPlayer(float force)
+    {
+        Rigidbody rbPlayer = _player.GetComponent<Rigidbody>();
+        rbPlayer.useGravity = true;
+        rbPlayer.isKinematic = false;
+        rbPlayer.AddForce(_player.forward * force * 3 + _player.up * force, ForceMode.VelocityChange);
     }
 }

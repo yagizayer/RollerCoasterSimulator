@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("test");
+            // interaction with cart
             _eventManager.InvokeCartInteractionEvent();
         }
     }
@@ -41,9 +41,32 @@ public class PlayerMovement : MonoBehaviour
 
     public void EnterCarAnimation()
     {
+        transform.position = new Vector3(5.4f, 2.6f, 25.0f);
+        transform.rotation = Quaternion.identity;
+        StartCoroutine(SlideToRight());
         _animator.SetTrigger("EnterCar");
     }
+    private IEnumerator SlideToRight()
+    {
+        Vector3 targetPosition = transform.position + Vector3.right;
+        Vector3 currentPosition = transform.position;
+        Vector3 newPos = Vector3.zero;
+        float lerpVal = 0;
 
-    
+        yield return new WaitForSeconds(.5f);
+        while (lerpVal <= 1)
+        {
+            newPos = Vector3.Lerp(currentPosition, targetPosition, lerpVal);
+            transform.position = newPos;
+            lerpVal += Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+    }
+
+    public void EnterRagdollMode()
+    {
+        _animator.enabled = false;
+    }
+
 
 }

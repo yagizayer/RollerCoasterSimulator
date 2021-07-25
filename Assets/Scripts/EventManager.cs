@@ -17,8 +17,8 @@ public class EventManager : MonoBehaviour
     {
         CartCrashEvent.Invoke();
     }
-    public void TestFunc()
+    public void TestFunc(string message)
     {
-        Debug.Log("test");
+        Debug.Log(message);
     }
 }

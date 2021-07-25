@@ -12,11 +12,13 @@ public class TriggerManager : MonoBehaviour
 {
     [SerializeField] private int _colliderCount = 0;
     [SerializeField] private CartSpeedEventsManager _cartSpeedEventsManager;
+    [SerializeField] private EventManager _eventManager;
     [SerializeField] private TriggerAreasDict Triggers;
     private void Start()
     {
         _cartSpeedEventsManager = FindObjectOfType<CartSpeedEventsManager>();
-        
+        _eventManager = FindObjectOfType<EventManager>();
+
         foreach (Transform item in transform)
         {
             if (Triggers.ContainsKey(_colliderCount)) return;
@@ -36,11 +38,12 @@ public class TriggerManager : MonoBehaviour
 
     public void Triggering(int ColliderID)
     {
-        if (ColliderID == 0)_cartSpeedEventsManager.InvokeFirstRisingEvent();
-        if (ColliderID == 1)_cartSpeedEventsManager.InvokeSteepDropEvent();
-        if (ColliderID == 2)_cartSpeedEventsManager.InvokeFirstLoopStartedEvent();
-        if (ColliderID == 3)_cartSpeedEventsManager.InvokeFirstLoopEndedEvent();
-        if (ColliderID == 4)_cartSpeedEventsManager.InvokeSecondLoopStartedEvent();
-        if (ColliderID == 5)_cartSpeedEventsManager.InvokeSecondLoopEndedEvent();
+        if (ColliderID == 0) _cartSpeedEventsManager.InvokeFirstRisingEvent();
+        if (ColliderID == 1) _cartSpeedEventsManager.InvokeSteepDropEvent();
+        if (ColliderID == 2) _cartSpeedEventsManager.InvokeFirstLoopStartedEvent();
+        if (ColliderID == 3) _cartSpeedEventsManager.InvokeFirstLoopEndedEvent();
+        if (ColliderID == 4) _cartSpeedEventsManager.InvokeSecondLoopStartedEvent();
+        if (ColliderID == 5) _cartSpeedEventsManager.InvokeSecondLoopEndedEvent();
+        if (ColliderID == 6) _eventManager.InvokeCartCrashEvent();
     }
 }
