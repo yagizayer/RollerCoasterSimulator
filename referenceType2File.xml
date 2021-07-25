@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>63443b1fc8f741f4886a40b43b2b4151</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/BzHealth.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0719727+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.BzHealth</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>54a414c866f957a4ca021e66c7908c7e</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/BzRagdoll.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0739732+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.BzRagdoll</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c90d35674025fbb4e912ffd4e5a67fec</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/BzThirdPersonBase.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0747132+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.BzThirdPersonBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>96c11ce03af2a95439874b128d859388</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/BzThirdPersonChCtrler.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0757122+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.BzThirdPersonChCtrler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>29dab433fdf3ca74b9ff1e3d93e2b066</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/BzThirdPersonControl.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0767111+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.BzThirdPersonControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b841d14ff3ec1e24db0d3db53a0ca83d</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/BzThirdPersonRigid.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0787127+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.BzThirdPersonRigid</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>720b03f3a94689746964400db2809cb3</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/IBzDamageable.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0797153+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.IBzDamageable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cf5ab09b07a053e40b59719c63cff57e</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/IBzRagdoll.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0807143+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.IBzRagdoll</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ca4625b38cff8324984b009e153b3091</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/IBzRagdollCharacter.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0827128+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.IBzRagdollCharacter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1b086ef11b3d6a74b87208a34d44aa0a</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Charachter/IBzThirdPerson.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.083712+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Charachter.IBzThirdPerson</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>87d1bce456b67454f90c64b3539294b2</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Tools/BzDisplayHealth.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0857119+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Tools.BzDisplayHealth</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2870804b637af34499949bf5f61ebe01</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Tools/BzFreeLookCam.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0877117+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Tools.BzFreeLookCam</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>044aafeffe2b3544dafc1f544a6409ec</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Tools/BzHealthItem.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0887128+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Tools.BzHealthItem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b2fe7b877a8c6714a93fe4fa8dc950c8</guid>
+    <fileName>Assets/3rd-Party/BzKovSoft/RagdollTemplate/Scripts/Tools/BzSpeedController.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.0897125+03:00</timeStamp>
+    <typeFullName>
+      <string>BzKovSoft.RagdollTemplate.Scripts.Tools.BzSpeedController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>178d8366aa1616849b91b66285c51454</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Editor/NavMeshAssetManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5601221+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>77fba670b979046f18d52d751e0d4659</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5631255+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ece1e865d1ad84587872fe8580ab5a20</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Editor/NavMeshLinkEditor.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5641256+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6fa04b4743e3947eba4d7b9e5832ea69</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Editor/NavMeshModifierEditor.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5651243+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c0f3bef2a67ae4e139538afec3e59b03</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5661252+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1c32167dbf3314852b6006a288eb449b</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5681255+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6eeb5dc026fdf4b488bc7ae0138ab719</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Scripts/NavMeshLink.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5711234+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1e3fdca004f2d45fe8abbed571a8abd5</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Scripts/NavMeshModifier.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5721233+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>35e95dc5ff2b64380880dd7ac5922847</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Scripts/NavMeshModifierVolume.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5731233+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a5ac11cc976e418e8d13136b07e1f52</guid>
+    <fileName>Assets/3rd-Party/NavMeshComponents/Scripts/NavMeshSurface.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5751247+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>45d81a20743ff42a3b0dfbd499d4797e</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Editor/PathEditor.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5841247+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bd0de63ca5c52504a8d2063418a326c3</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Editor/Helper/MouseUtility.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5791264+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>804ddb43548540a4ca3b0a534a75c4b3</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Editor/Helper/PathHandle.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5801259+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>05aed72a972059e45a62e31c2bb60fc4</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Editor/Helper/ScreenSpacePolyLine.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.582124+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>756209f371f304fb1920c53a8a25a5e2</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/BezierPath.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5871242+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c0d7fa70c03166e4180909b6e5d546c7</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/EndOfPathInstruction.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5881241+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>46d5e8d803e252f4499b52e657f8e1a2</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/GlobalDisplaySettings.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5891245+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>194e1b7893dcbf940a71eb507d8b10f3</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/MinMax3D.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5911248+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8e5ac92bc18f545cc84cd886ece82b4d</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/PathCreator.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5911248+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>19547029ffb83484e90d00c182104817</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/PathCreatorData.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5931254+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>407af8f85a5bae449bce4730c5d97d1a</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/PathSpace.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5941247+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>223183313f20d4049a397d83fab3151e</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Objects/VertexPath.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5951259+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c66a6536bb2d641558729d6da1ec7594</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Utility/CubicBezierUtility.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5981251+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>096bae1d1ed960d4bb7605dce06767c1</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Utility/MathUtility.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.5991256+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5505526f3c472e8499fa7ce169410ace</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Core/Runtime/Utility/VertexPathUtility.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6001251+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f417e74782fffcd40b77b0fdbe82af04</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/GeneratePathExample.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6340893+03:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.GeneratePathExample</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33aabe1a2dec93349b06e6e5dc51bc06</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/PathFollower.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6350891+03:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathFollower</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d12b1fe1b42884d7692049d7f6f79ee9</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/PathPlacer.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6360891+03:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathPlacer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83aca5399f4e71c44b5d6c1314b5b95f</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/PathSceneTool.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6370891+03:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathSceneTool</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b617cc208d0104cad9534d503ff3e1cf</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/PathSpawner.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6380898+03:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.PathSpawner</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b275c3b78f8717c4cbc60f74a3247f67</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/RoadMeshCreator.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6390897+03:00</timeStamp>
+    <typeFullName>
+      <string>PathCreation.Examples.RoadMeshCreator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>db8aedf6f6cf2734cb24c49646427e96</guid>
+    <fileName>Assets/3rd-Party/PathCreator/Examples/Scripts/Editor/PathSceneToolEditor.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6340893+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>00639d477664ffc42bc48acded7cc5b2</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/DrawKeyAsPropertyAttribute.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6440898+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.SerializableDictionary.DrawKeyAsPropertyAttribute</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>553c4210c29c1884fbce9652dafeea9e</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/IDAttribute.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6590917+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.SerializableDictionary.IDAttribute</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0e6b03a8ca9bd434fae7398312521818</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/SerializableDictionaryBase.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6660928+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.SerializableDictionary.DrawableDictionary</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e8f7fab786cd2c04194e604600b27211</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Editor/Constants.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6460904+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>db381ff7b4ec4384d8ec4f8cf79d7398</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Editor/Definer.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6470903+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>535421d7cb5b6b943a76e5f0c855d5d3</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Editor/DictionaryPropertyDrawer.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6490904+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>28956686d1e55594b904610e0b1614d5</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Editor/PreferencesWindow.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6500908+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c148ddc40f9a15d4dbbbd484dbdec41a</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Editor/SupportWindow.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6510897+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>01676c610da230d44bf354f89a960a84</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Example/DataBaseExample.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6540912+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.DataBaseExample</string>
+      <string>RotaryHeart.Lib.DataBaseExample+EnumExample</string>
+      <string>RotaryHeart.Lib.DataBaseExample+ChildTest</string>
+      <string>RotaryHeart.Lib.DataBaseExample+ClassTest</string>
+      <string>RotaryHeart.Lib.DataBaseExample+ArrayTest</string>
+      <string>RotaryHeart.Lib.DataBaseExample+AdvancedGenericClass</string>
+      <string>RotaryHeart.Lib.DataBaseExample+Generic_String</string>
+      <string>RotaryHeart.Lib.DataBaseExample+Generic_Generic</string>
+      <string>RotaryHeart.Lib.DataBaseExample+C_Int</string>
+      <string>RotaryHeart.Lib.DataBaseExample+G_Int</string>
+      <string>RotaryHeart.Lib.DataBaseExample+I_GO</string>
+      <string>RotaryHeart.Lib.DataBaseExample+GO_I</string>
+      <string>RotaryHeart.Lib.DataBaseExample+S_GO</string>
+      <string>RotaryHeart.Lib.DataBaseExample+GO_S</string>
+      <string>RotaryHeart.Lib.DataBaseExample+S_Mat</string>
+      <string>RotaryHeart.Lib.DataBaseExample+Mat_S</string>
+      <string>RotaryHeart.Lib.DataBaseExample+S_AC</string>
+      <string>RotaryHeart.Lib.DataBaseExample+AC_S</string>
+      <string>RotaryHeart.Lib.DataBaseExample+S_Sprite</string>
+      <string>RotaryHeart.Lib.DataBaseExample+V3_Q</string>
+      <string>RotaryHeart.Lib.DataBaseExample+Q_V3</string>
+      <string>RotaryHeart.Lib.DataBaseExample+S_GenericDictionary</string>
+      <string>RotaryHeart.Lib.DataBaseExample+I_GenericDictionary</string>
+      <string>RotaryHeart.Lib.DataBaseExample+Int_IntArray</string>
+      <string>RotaryHeart.Lib.DataBaseExample+Enum_String</string>
+      <string>RotaryHeart.Lib.DataBaseExample+AdvanGeneric_String</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>86c2746ac6d3d924bb04108285ea0aff</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/Example/NestedDB.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6570919+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.NestedDB</string>
+      <string>RotaryHeart.Lib.Example</string>
+      <string>RotaryHeart.Lib.NestedExample</string>
+      <string>RotaryHeart.Lib.MainDict</string>
+      <string>RotaryHeart.Lib.NestedDict</string>
+      <string>RotaryHeart.Lib.Nested2Dict</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ef11afdbd8a2f34448943ffdea9943ac</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/References/RequiredReferences.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6620921+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.SerializableDictionary.RequiredReferences</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a912a08eeace5594fa91c48e23c7b920</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/SerializableDictionaryLite/ReorderableList/ReorderableList.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6650928+03:00</timeStamp>
+    <typeFullName>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+ElementDisplayType</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+HeaderExpand</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+DrawFooterDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+ActionDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+ActionBoolDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+DrawHeaderDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+ReorderElementesDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+AddDropdownDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+DragDropAppendDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+DrawElementDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+DragDropReferenceDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+GetElementHeightDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+GetElementsHeightDelegate</string>
+      <string>RotaryHeart.Lib.SerializableDictionary.ReorderableList+GetElementNameDelegate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9cdf3bd7e11956f4d8523004bed5cbfb</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/Shared/Editor/BaseSupportWindow.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6700928+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3ceafd2f8a406f64881b824b664f2ff7</guid>
+    <fileName>Assets/3rd-Party/Rotary Heart/Shared/Editor/Definer.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.6710929+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cf833ff58348d2d4897e6decfec2454e</guid>
+    <fileName>Assets/Scripts/Helpers/Extesions.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9012584+03:00</timeStamp>
+    <typeFullName>
+      <string>Helper.Vector3Values</string>
+      <string>Helper.Extesions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83e8482ba9875fb48be4df22e9edc927</guid>
+    <fileName>Assets/Scripts/Helpers/Functions.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9022585+03:00</timeStamp>
+    <typeFullName>
+      <string>Helper.Functions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9b7fcb95268700b469f0f56af280045e</guid>
+    <fileName>Assets/Scripts/Managers/CartManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9042591+03:00</timeStamp>
+    <typeFullName>
+      <string>CartManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7f1f4ea87a7aa584287be75536090598</guid>
+    <fileName>Assets/Scripts/Managers/CartSpeedEventsManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9052596+03:00</timeStamp>
+    <typeFullName>
+      <string>CartSpeedEventsManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>987e0efa51361c54099b73745f4941a9</guid>
+    <fileName>Assets/Scripts/Managers/EventManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9062594+03:00</timeStamp>
+    <typeFullName>
+      <string>EventManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e71fffa09a193d44b90bbc3d2ddc2e05</guid>
+    <fileName>Assets/Scripts/Managers/GameManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9072598+03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d9c2308abb2373d4185c065bfcd2ea5b</guid>
+    <fileName>Assets/Scripts/Managers/SoundManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9082589+03:00</timeStamp>
+    <typeFullName>
+      <string>SoundEffectsName</string>
+      <string>SoundManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f4cdc90f2a59eb54f8fcb87339de91e0</guid>
+    <fileName>Assets/Scripts/Managers/TriggerManager.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9092593+03:00</timeStamp>
+    <typeFullName>
+      <string>TriggerAreasDict</string>
+      <string>TriggerManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d91ece2476ad9154ab89bd57ac23e3e7</guid>
+    <fileName>Assets/Scripts/Others/ControlAreaChecker.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9112593+03:00</timeStamp>
+    <typeFullName>
+      <string>ControlAreaChecker</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>640c9c2353e8eac49b4f50ffe7f32bf0</guid>
+    <fileName>Assets/Scripts/Others/PlayerMovement.cs</fileName>
+    <timeStamp>2021-07-26T01:44:52.9122598+03:00</timeStamp>
+    <typeFullName>
+      <string>PlayerMovement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
