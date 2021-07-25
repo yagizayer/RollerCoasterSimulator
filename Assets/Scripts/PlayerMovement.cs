@@ -4,7 +4,7 @@ using UnityEngine.AI;
 using UnityEngine;
 using Helper;
 
-[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(NavMeshAgent), typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // interaction with cart
-            _eventManager.InvokeCartInteractionEvent();
+            _eventManager.InvokeCartCrashEvent();
         }
     }
 
@@ -63,10 +63,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void EnterRagdollMode()
-    {
-        _animator.enabled = false;
-    }
 
 
 }

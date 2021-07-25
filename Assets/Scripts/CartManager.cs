@@ -11,6 +11,8 @@ public class CartManager : MonoBehaviour
     private TriggerManager _triggerManager;
     private Transform _player;
 
+    [SerializeField] private Transform TestRipcage;
+
     private void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -64,9 +66,19 @@ public class CartManager : MonoBehaviour
 
     public void AddForceToPlayer(float force)
     {
-        Rigidbody rbPlayer = _player.GetComponent<Rigidbody>();
-        rbPlayer.useGravity = true;
-        rbPlayer.isKinematic = false;
-        rbPlayer.AddForce(_player.forward * force * 3 + _player.up * force, ForceMode.VelocityChange);
+        Rigidbody[] allLimbs = _player.GetComponentsInChildren<Rigidbody>();
+        allLimbs[0].useGravity = true;
+        allLimbs[0].isKinematic = false;
+
+        foreach (Rigidbody Limb in allLimbs)
+        {
+            if (Limb.useGravity == false) Debug.Log(Limb.name);
+        }
+
+        // StartCoroutine(AddingForce(force));
+    }
+    private IEnumerator AddingForce(float force)
+    {
+        yield return new WaitForSeconds(0f);
     }
 }
