@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private NavMeshAgent _navMeshAgent;
     [SerializeField] private EventManager _eventManager;
     [SerializeField, Range(0.001f, 10f)] private float _movementOffset;
+    public Transform Hips;
     private Transform _mainCam;
 
     private void Start()
@@ -30,9 +31,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // interaction with cart
-            _eventManager.InvokeCartCrashEvent();
+            Collider[] nearbyObjects = Physics.OverlapSphere(transform.position, 5);
+            foreach (Collider item in nearbyObjects)
+            {
+                if (item.CompareTag("Cart"))
+                    _eventManager.InvokeCartInteractionEvent();
+            }
         }
     }
+
 
     private Vector3 GetInputs()
     {

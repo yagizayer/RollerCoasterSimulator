@@ -8,16 +8,21 @@ using Helper;
 public class CartManager : MonoBehaviour
 {
     [SerializeField] private PathFollower _cartControlScript;
+    [SerializeField] private Transform ExplosionPoint;
     private TriggerManager _triggerManager;
     private Transform _player;
+    private Transform _hips;
 
     [SerializeField] private Transform TestRipcage;
 
     private void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").transform;
+        _hips = _player.GetComponent<PlayerMovement>().Hips;
         _triggerManager = FindObjectOfType<TriggerManager>();
         _cartControlScript = GetComponent<PathFollower>();
+
+
     }
     public void EnableCartFollowAfterDelay()
     {
@@ -66,19 +71,11 @@ public class CartManager : MonoBehaviour
 
     public void AddForceToPlayer(float force)
     {
-        Rigidbody[] allLimbs = _player.GetComponentsInChildren<Rigidbody>();
-        allLimbs[0].useGravity = true;
-        allLimbs[0].isKinematic = false;
-
-        foreach (Rigidbody Limb in allLimbs)
+        foreach (Rigidbody item in _player.GetComponentsInChildren<Rigidbody>())
         {
-            if (Limb.useGravity == false) Debug.Log(Limb.name);
+            item.AddExplosionForce(force, ExplosionPoint.position, 10, 10, ForceMode.Impulse);
+            item.AddExplosionForce(force, ExplosionPoint.position, 10, 10, ForceMode.Impulse);
+            item.AddExplosionForce(force, ExplosionPoint.position, 10, 10, ForceMode.Impulse);
         }
-
-        // StartCoroutine(AddingForce(force));
-    }
-    private IEnumerator AddingForce(float force)
-    {
-        yield return new WaitForSeconds(0f);
     }
 }
