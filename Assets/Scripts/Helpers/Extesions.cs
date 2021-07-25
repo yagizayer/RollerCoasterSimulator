@@ -103,6 +103,16 @@ namespace Helper
             }
             return null;
         }
+        public static Vector3 RelativeToCamera(this Vector3 me, Transform currentCamera)
+        {
+            Vector3 rawMoveDir = me;
+
+            Vector3 cameraForwardNormalized = Vector3.ProjectOnPlane(currentCamera.forward, Vector3.up);
+            Quaternion rotationToCamNormal = Quaternion.LookRotation(cameraForwardNormalized, Vector3.up);
+
+            Vector3 finalMoveDir = rotationToCamNormal * rawMoveDir;
+            return finalMoveDir;
+        }
 
     }
 
