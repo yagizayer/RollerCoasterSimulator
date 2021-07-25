@@ -44,7 +44,7 @@ public class SoundManager : MonoBehaviour
     }
     public void ChangeRollerCoasterAudioSpeed(float targetSpeed)
     {
-        SoundEffects[SoundEffectsName.RollerCoaster].pitch = targetSpeed.Remap(0, 50, 1, 1.6f);
+        SoundEffects[SoundEffectsName.RollerCoaster].pitch = targetSpeed.Remap(0, 40, 1, 1.7f);
     }
     
     
