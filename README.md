@@ -3,6 +3,7 @@
 
  - **Platform :** PC 
  - **Engine :** Unity 2020.3.12f1 
+ - **Prototype:** [https://yagizayer.github.io/RollerCoasterSimulator/]
  
 ## Gameplay 
 This project made to practicing and demonstrating Spline and Ragdoll mechanics.
