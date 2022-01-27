@@ -1,7 +1,7 @@
 # Roller Coaster Simulator
 ## Platform and Engine
 
- - **Platform :** PC 
+ - **Platform :** PC and WebGL 
  - **Engine :** Unity 2020.3.12f1 
  - **Prototype:** [https://yagizayer.github.io/RollerCoasterSimulator/]
  
